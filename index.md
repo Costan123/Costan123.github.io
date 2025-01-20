@@ -24,4 +24,4 @@ Find multiple stocks through linux
 
 ## Stock Ticker Names
 Find the stock ticker for any stock! 
-[Link] (https://stockanalysis.com/stocks/)
+[Link](https://stockanalysis.com/stocks/)
