@@ -9,9 +9,6 @@ description: Computer Engineering Student
 
 * * *
 
-1. TOC
-{:toc}
-
 * * *
 
 ## Stock Program
@@ -24,5 +21,11 @@ Find multiple stocks through linux
 ## Stock Ticker Names
 Find the stock ticker for any stock! 
 [Link](https://stockanalysis.com/stocks/)
+
+***                
+1. TOC
+{:toc}
+
+***
 
 ![asd](https://www.waldenu.edu/media/4691/seo-1063-bs-stock-market-quotes-from-a-com-18939602-1200x675)
