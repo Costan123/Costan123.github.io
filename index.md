@@ -16,6 +16,12 @@ description: Computer Engineering Student
 
 ## Stock Program
 Find a singular stock through linux
+[Link](http://localhost:8888/notebooks/Untitled2.ipynb)
 
 ## Multiple Stock Program
 Find multiple stocks through linux
+[Link](http://localhost:8888/notebooks/workingstockwithmultiple.ipynb)
+
+## Stock Ticker Names
+Find the stock ticker for any stock! 
+[Link] (https://stockanalysis.com/stocks/)
