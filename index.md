@@ -16,8 +16,7 @@ description: Computer Engineering Student
 
 ## Stock Program
 Find a singular stock through linux
-[Link](http://localhost:8888/notebooks/Untitled2.ipynb)
-
+[Link](http://localhost:8888/notebooks/SINGLE.ipynb)
 ## Multiple Stock Program
 Find multiple stocks through linux
 [Link](http://localhost:8888/notebooks/workingstockwithmultiple.ipynb)
