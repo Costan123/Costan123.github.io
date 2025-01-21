@@ -10,17 +10,16 @@ description: Computer Engineering Student
 * * *
 
 * * *
-
-## Stock Program
-Find a singular stock through linux
-[Link](http://localhost:8888/notebooks/SINGLE.ipynb)
-## Multiple Stock Program
-Find multiple stocks through linux
-[Link](http://localhost:8888/notebooks/workingstockwithmultiple.ipynb)
-
-## Stock Ticker Names
-Find the stock ticker for any stock! 
-[Link](https://stockanalysis.com/stocks/)
+# Linux Stocks
+- ### Stock Program
+  - Find a singular stock through linux
+    [Link](http://localhost:8888/notebooks/SINGLE.ipynb)
+- ### Multiple Stock Program
+  - Find multiple stocks through linux
+    [Link](http://localhost:8888/notebooks/workingstockwithmultiple.ipynb)
+- ### Stock Ticker Names
+    - Find the stock ticker for any stock! 
+      [Link](https://stockanalysis.com/stocks/)
 
 
 ![asd](https://www.waldenu.edu/media/4691/seo-1063-bs-stock-market-quotes-from-a-com-18939602-1200x675)
