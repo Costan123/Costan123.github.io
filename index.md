@@ -14,7 +14,7 @@ Stock
 - ### Single Stock Viewer
   - Find and view one singular stock through Jupyter Notebook (Linux)
     [Link](http://localhost:8888/notebooks/SINGLE.ipynb)
-    [e] (https://ibb.co/ZKQMMJm)
+     [asd](https://ibb.co/ZKQMMJm)
 
 - ### Multiple Stock-Viewer 
   - Find multiple stocks through Jupyter Notebook (Linux)
