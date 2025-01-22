@@ -14,11 +14,11 @@ Stock
 - ### Single Stock Viewer
   - Find and view one singular stock through Jupyter Notebook (Linux)
     [Link](http://localhost:8888/notebooks/SINGLE.ipynb)
-     [asd](https://ibb.co/ZKQMMJm)
 
 - ### Multiple Stock-Viewer 
   - Find multiple stocks through Jupyter Notebook (Linux)
     [Link](http://localhost:8888/notebooks/workingstockwithmultiple.ipynb)
+
 - ### Stock Ticker Names
     - Find the stock ticker for any stock 
       [Link](https://stockanalysis.com/stocks/)
