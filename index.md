@@ -17,7 +17,11 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
   - Click the link to see some videos taken from my drone
   [Link](https://drive.google.com/drive/folders/1-2kOdHDsvPd6vPiCYo6j8hLZmPwcIxvy)
 ![e](copy_6ADF3497-8841-4272-A835-B51B0F4CD40F(2)(1)(2)(2).mp4)
-
+<div class="embed-container">
+    <iframe width="640" height="390" 
+    src="https://www.youtube.com/embed/{{ include.id }}" 
+    frameborder="0" allowfullscreen></iframe>
+</div>
   
 # Linux Stocks
 - ### Single Stock Viewer
