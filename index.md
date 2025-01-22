@@ -16,7 +16,7 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
 - ### Cinematic Videos
   - Click the link to see some videos taken from my drone
   [Link](https://drive.google.com/drive/folders/1-2kOdHDsvPd6vPiCYo6j8hLZmPwcIxvy)
-![no video!](copy_6ADF3497-8841-4272-A835-B51B0F4CD40F(2)(1).mov)
+![no video!](copy_6ADF3497-8841-4272-A835-B51B0F4CD40F(2)(1)(2).mov)
 
   
 # Linux Stocks
@@ -33,4 +33,4 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
       [Link](https://stockanalysis.com/stocks/)
 
 
-![asd]()
+
