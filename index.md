@@ -18,11 +18,7 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
   [Link](https://drive.google.com/drive/folders/1-2kOdHDsvPd6vPiCYo6j8hLZmPwcIxvy)
 {% include embed/video.html src='{https://www.youtube.com/watch?v=jVK98B5K9Rg&ab_channel=LunaFn}' %}
  
-<div class="embed-container">
-    <iframe width="640" height="390" 
-    src="https://youtu.be/jVK98B5K9Rg?si=jZiCi_GNcCiTmYBz/{{ include.id }}" 
-    frameborder="0" allowfullscreen></iframe>
-</div>
+
   
 # Linux Stocks
 - ### Single Stock Viewer
