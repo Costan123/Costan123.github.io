@@ -16,7 +16,8 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
 - ### Cinematic Videos
   - Click the link to see some videos taken from my drone
   [Link](https://drive.google.com/drive/folders/1-2kOdHDsvPd6vPiCYo6j8hLZmPwcIxvy)
-{% include embed/video.html src='{https://www.youtube.com/watch?v=jVK98B5K9Rg&ab_channel=LunaFn}' %}
+[![Video Title](https://img.youtube.com/vi/<VIDEO_ID>/0.jpg)](https://www.youtube.com/watch?v=jVK98B5K9Rg&ab_channel=LunaFn)
+
  
 
   
