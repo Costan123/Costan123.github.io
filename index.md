@@ -22,13 +22,13 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
 </video>
 
   
-# Linux Stocks
-- ### Single Stock Viewer
-  - Find and view one singular stock through Jupyter Notebook (Linux)
+# Stock Programs
+- ### Single Stock Viewer 
+  - View one singular stock through Jupyter Notebook. Must have Linux and Jupyter Notebook installed for link to work.
     [Link](http://localhost:8888/notebooks/SINGLE.ipynb)
 
 - ### Multiple Stock-Viewer 
-  - Find multiple stocks through Jupyter Notebook (Linux)
+  - View multiple stocks through Jupyter Notebook. Must have Linux and Jupyter Notebook installed for link to work.
     [Link](http://localhost:8888/notebooks/workingstockwithmultiple.ipynb)
 
 - ### Stock Ticker Names
