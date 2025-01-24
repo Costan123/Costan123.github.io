@@ -10,7 +10,7 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
 #  My Pictures and Videos
 - ### Sports Photography
   - Over my time at Port Credit, i've developed a love for photography. Click the Link to see different picturse that i've taken of players from Football, Rugby, Kayaking/Canoeing and Long Distance runners.
-  [Link](https://drive.google.com/file/d/15K9dY2IpA7PAkg2Fk9Cazenigmi4cxP5)
+  [Link](https://drive.google.com/drive/folders/15K9dY2IpA7PAkg2Fk9Cazenigmi4cxP5?usp=drive_link)
 ![e](IMGL6347.jpg)
 
 - ### Cinematic Videos
