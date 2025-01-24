@@ -37,7 +37,7 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
 
 - ### How to install Jupyter Notebook on Linux
    -<video width="590" height="390" controls>
-  <source src="copy_6ADF3497-8841-4272-A835-B51B0F4CD40F(2)(1)(2)(2).mp4" type="video/mp4">
+  <source src="Installing Jupyter Notebook on Ubuntu! 720.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
