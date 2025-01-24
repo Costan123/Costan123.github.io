@@ -14,7 +14,7 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
 ![e](IMGL6347.jpg)
 
 - ### Cinematic Videos
-  - Click the link to see some videos taken from my drone
+  - Adding onto my liking of photography, I purchased a drone and started using it to film cinematic videos. Follow the link to see some.
   [Link](https://drive.google.com/drive/folders/1-2kOdHDsvPd6vPiCYo6j8hLZmPwcIxvy)
 <video width="590" height="390" controls>
   <source src="copy_6ADF3497-8841-4272-A835-B51B0F4CD40F(2)(1)(2)(2).mp4" type="video/mp4">
