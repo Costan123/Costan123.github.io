@@ -41,38 +41,13 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
   <source src="Installing Jupyter Notebook on Ubuntu! 720.mp4" type="video/mp4">
   Your browser does not support the video tag.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visitor Counter</title>
-</head>
-<body>
-  <h2>Visitor Counter</h2>
-  <p id="visitor-count">Loading...</p>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  <script>
-    // Replace with your unique key (your website URL)
-    const apiUrl = "https://api.countapi.xyz/hit/costan123.github.io/visits";
+  gtag('config', 'G-FKF2W2CTCZ');
+</script>
 
-    // Fetch the visitor count from countapi.xyz
-    fetch(apiUrl)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json();
-      })
-      .then(data => {
-        document.getElementById("visitor-count").textContent = 
-          `This page has been visited ${data.value} times!`;
-      })
-      .catch(err => {
-        console.error("Error fetching visitor count:", err);
-        document.getElementById("visitor-count").textContent = 
-          "Unable to load visitor count.";
-      });
-  </script>
-</body>
-</html>
