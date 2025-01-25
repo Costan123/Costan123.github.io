@@ -34,25 +34,52 @@
 
 - ### How to install Jupyter Notebook on Linux
    -Click on the video to see a step-by-step tutorial on how to download Jupyter Notebook on Linux-Ubuntu.
-  <video width="590" height="490" controls>
+  <video width="590" height="470" controls>
   <source src="Installing Jupyter Notebook on Ubuntu! 720.mp4" type="video/mp4">
   Your browser does not support the video tag.
 
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-FKF2W2CTCZ');
-</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Analytics</title>
+</head>
+<body>
+  <h1>My Awesome Website</h1>
+  <p id="analytics">Loading analytics...</p>
 
+  <script>
+    // Replace with your Google Analytics View ID and API Key
+    const viewId = "474727906"; // Example: ga:123456789
+    const apiKey = "G-9KJYM44VMH";
 
+    // Fetch data from the Google Analytics API
+    fetch(`https://analyticsreporting.googleapis.com/v4/reports:batchGet?key=${apiKey}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        reportRequests: [
+          {
+            viewId: viewId,
+            dateRanges: [{ startDate: "7daysAgo", endDate: "today" }],
+            metrics: [{ expression: "ga:pageviews" }],
+          },
+        ],
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        const pageViews = data.reports[0].data.totals[0].values[0];
+        document.getElementById("analytics").textContent = `This page has been viewed ${pageViews} times in the past week.`;
+      })
+      .catch((err) => {
+        console.error("Error fetching analytics data:", err);
+        document.getElementById("analytics").textContent = "Unable to load analytics.";
+      });
+  </script>
+</body>
+</html>
 
-
-
-<p align="center">
-    <a href="https://mail.google.com/mail/u/0/?fs=1&to=788513@pdsb.net&tf=cm">Contact Me - costin.neagoe@yahoo.com</a>
-</p>
 
