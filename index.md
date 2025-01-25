@@ -37,7 +37,7 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
 
 - ### How to install Jupyter Notebook on Linux
    -Click on the video to see a step-by-step tutorial on how to download Jupyter Notebook on Linux-Ubuntu.
-  <video width="590" height="590" controls>
+  <video width="590" height="490" controls>
   <source src="Installing Jupyter Notebook on Ubuntu! 720.mp4" type="video/mp4">
   Your browser does not support the video tag.
 
@@ -46,14 +46,18 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
 <p id="visitor-count">Loading...</p>
 
 <script>
-  const apiEndpoint = "https://api.countapi.xyz/hit/https://costan123.github.io//visits";
+  const apiUrl = "https://api.countapi.xyz/hit/costan123.github.io/visits";
 
-  fetch(apiEndpoint)
+  fetch(apiUrl)
     .then(response => response.json())
     .then(data => {
-      document.getElementById("visitor-count").textContent = `This page has been visited ${data.value} times!`;
+      document.getElementById("visitor-count").textContent = 
+        `This page has been visited ${data.value} times!`;
     })
-    .catch(err => console.error("Error fetching visitor count:", err));
+    .catch(err => {
+      console.error("Error fetching visitor count:", err);
+      document.getElementById("visitor-count").textContent = "Unable to load visitor count.";
+    });
 </script>
 
 
