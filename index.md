@@ -42,4 +42,19 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
   Your browser does not support the video tag.
 
 
+<h2>Visitor Counter</h2>
+<p id="visitor-count">Loading...</p>
+
+<script>
+  const apiEndpoint = "https://api.countapi.xyz/hit/https://costan123.github.io//visits";
+
+  fetch(apiEndpoint)
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById("visitor-count").textContent = `This page has been visited ${data.value} times!`;
+    })
+    .catch(err => console.error("Error fetching visitor count:", err));
+</script>
+
+
 
