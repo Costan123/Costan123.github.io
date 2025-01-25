@@ -42,23 +42,32 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
   Your browser does not support the video tag.
 
 
-<h2>Visitor Counter</h2>
-<p id="visitor-count">Loading...</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visitor Counter</title>
+</head>
+<body>
+  <h2>Visitor Counter</h2>
+  <p id="visitor-count">Loading...</p>
 
-<script>
-  const apiUrl = "https://api.countapi.xyz/hit/costan123.github.io/visits";
+  <script>
+    // API URL for countapi.xyz
+    const apiUrl = "https://api.countapi.xyz/hit/costan123.github.io/visits";
 
-  fetch(apiUrl)
-    .then(response => response.json())
-    .then(data => {
-      document.getElementById("visitor-count").textContent = 
-        `This page has been visited ${data.value} times!`;
-    })
-    .catch(err => {
-      console.error("Error fetching visitor count:", err);
-      document.getElementById("visitor-count").textContent = "Unable to load visitor count.";
-    });
-</script>
-
-
-
+    // Fetch the count and display it
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById("visitor-count").textContent = 
+          `This page has been visited ${data.value} times!`;
+      })
+      .catch(err => {
+        console.error("Error fetching visitor count:", err);
+        document.getElementById("visitor-count").textContent = "Unable to load visitor count.";
+      });
+  </script>
+</body>
+</html>
