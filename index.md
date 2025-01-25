@@ -2,7 +2,7 @@
 ---
 title: Costin Neagoe
 <p></p>  Sports Photographer / Cinematic Videographer, Computer Engineering Student
----
+
 
 <p align="center">
     <a href="https://mail.google.com/mail/u/0/?fs=1&to=788513@pdsb.net&tf=cm">Contact Me - costin.neagoe@yahoo.com</a>
