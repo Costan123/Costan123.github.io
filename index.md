@@ -41,7 +41,6 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
   <source src="Installing Jupyter Notebook on Ubuntu! 720.mp4" type="video/mp4">
   Your browser does not support the video tag.
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,19 +53,25 @@ description:  Sports Photographer / Cinematic Videographer, Computer Engineering
   <p id="visitor-count">Loading...</p>
 
   <script>
-    // API URL for countapi.xyz
+    // Replace with your unique key (your website URL)
     const apiUrl = "https://api.countapi.xyz/hit/costan123.github.io/visits";
 
-    // Fetch the count and display it
+    // Fetch the visitor count from countapi.xyz
     fetch(apiUrl)
-      .then(response => response.json())
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
       .then(data => {
         document.getElementById("visitor-count").textContent = 
           `This page has been visited ${data.value} times!`;
       })
       .catch(err => {
         console.error("Error fetching visitor count:", err);
-        document.getElementById("visitor-count").textContent = "Unable to load visitor count.";
+        document.getElementById("visitor-count").textContent = 
+          "Unable to load visitor count.";
       });
   </script>
 </body>
