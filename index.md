@@ -69,18 +69,7 @@
 </script>
 
 
-<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
-<script>
-  function toggleDarkMode() {
-    document.body.classList.toggle("dark-mode");
-  }
-</script>
-<style>
-  .dark-mode {
-    background-color: #121212;
-    color: #fff;
-  }
-</style>
+
 
 
 
