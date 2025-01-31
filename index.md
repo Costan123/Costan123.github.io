@@ -35,7 +35,7 @@
 
 # Installation Guides 
 - ### How to install Jupyter Notebook on Windows 11
-   -Click on the video to see a step-by-step tutorial on how to download Jupyter Notebook on Windows 11. IMPORTANT - You  must enter the command "pip install yfinance" after following the steps in the video for this program to work. 
+   -Click on the video to see a step-by-step tutorial on how to download Jupyter Notebook on Windows 11.    IMPORTANT - You  must enter the command "pip install yfinance" after following the steps in the video for this program to work. 
   <video width="570" height="390" controls>
   <source src="videoplayback.mp4" type="video/mp4">
   Your browser does not support video tags.   
