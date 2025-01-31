@@ -83,32 +83,16 @@
 </style>
 
 
-
-<button onclick="topFunction()" id="scrollTopBtn">⬆</button>
+<div id="location"></div>
 <script>
-  let mybutton = document.getElementById("scrollTopBtn");
-  window.onscroll = function () {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  };
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
+  fetch("https://ipapi.co/json/")
+    .then(response => response.json())
+    .then(data => {
+      document.getElementById("location").innerText =
+        `You are visiting from ${data.city}, ${data.country_name}`;
+    });
 </script>
-<style>
-  #scrollTopBtn {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-    background: black;
-    color: white;
-    border: none;
-    padding: 10px;
+
     cursor: pointer;
   }
 </style>
