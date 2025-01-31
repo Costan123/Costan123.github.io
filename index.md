@@ -51,6 +51,21 @@
   Your browser does not support the video tag.
 
 
+<audio id="bgMusic" loop>
+  <source src="Jazz Instrumental_ 1 Hour of Smooth Elevator Music Video Playlist for relaxing summer chill out 4 (1) (1).mp3" type="audio/mp3">
+</audio>
+<button onclick="toggleMusic()">Play/Pause Music</button>
+<script>
+  function toggleMusic() {
+    var music = document.getElementById("bgMusic");
+    if (music.paused) {
+      music.play();
+    } else {
+      music.pause();
+    }
+  }
+</script>
+
 
 
 
