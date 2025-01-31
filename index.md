@@ -22,11 +22,11 @@
 # Stock Programs
 - ### Single Stock Viewer 
   - View one singular stock through Jupyter Notebook. Must have Linux and Jupyter Notebook installed for link to work.
-    [Link](http://localhost:8888/notebooks/SINGLE.ipynb)
+    [Link](https://drive.google.com/drive/u/1/folders/1yCu40BihRHzyMdpvzy83HZpjyny_QV-j)
 
 - ### Multiple Stock-Viewer 
   - View multiple stocks through Jupyter Notebook. Must have Linux and Jupyter Notebook installed for link to work.
-    [Link](http://localhost:8888/notebooks/workingstockwithmultiple.ipynb)
+    [Link](https://drive.google.com/drive/u/1/folders/1yCu40BihRHzyMdpvzy83HZpjyny_QV-j)
 
 - ### Stock Ticker Names
     - Follow the link to view the ticker of any major company's stock.
