@@ -19,6 +19,8 @@
 </video>
 
   
+
+
 # Stock Programs
 - ### Single Stock Viewer 
   - View one singular stock through Jupyter Notebook. Must have Linux and Jupyter Notebook installed for link to work.
