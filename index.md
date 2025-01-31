@@ -15,7 +15,7 @@
   [Link](https://drive.google.com/drive/folders/1-2kOdHDsvPd6vPiCYo6j8hLZmPwcIxvy)
 <video width="590" height="390" controls>
   <source src="copy_6ADF3497-8841-4272-A835-B51B0F4CD40F(2)(1)(2)(2).mp4" type="video/mp4">
-  Your browser does not support the` video tag.
+  Your browser does not support the video tag.
 </video>
 
   
@@ -31,6 +31,14 @@
 - ### Stock Ticker Names
     - Follow the link to view the ticker of any major company's stock.
       [Link](https://stockanalysis.com/stocks/)
+
+- ### How to install Jupyter Notebook on Windows 11
+   -Click on the video to see a step-by-step tutorial on how to download Jupyter Notebook on Windows 11.
+  <video width="540" height="470" controls>
+  <source src="videoplayback.mp4" type="video/mp4">
+  Your browser does not support video tags.   
+
+
 
 - ### How to install Jupyter Notebook on Linux
    -Click on the video to see a step-by-step tutorial on how to download Jupyter Notebook on Linux-Ubuntu.
