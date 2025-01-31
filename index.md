@@ -51,6 +51,8 @@
   Your browser does not support the video tag.
 
 
+
+# Miscellaneous
 <audio id="bgMusic" loop>
   <source src="Jazz Instrumental_ 1 Hour of Smooth Elevator Music Video Playlist for relaxing summer chill out 4 (1) (1).mp3" type="audio/mp3">
 </audio>
@@ -66,6 +68,19 @@
   }
 </script>
 
+
+<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+<script>
+  function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+  }
+</script>
+<style>
+  .dark-mode {
+    background-color: #121212;
+    color: #fff;
+  }
+</style>
 
 
 
