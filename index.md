@@ -32,7 +32,7 @@
     - Follow the link to view the ticker of any major company's stock.
       [Link](https://stockanalysis.com/stocks/)
 
-- ### How to install Jupyter Notebook on Windows 11
+- ## How to install Jupyter Notebook on Windows 11
    -Click on the video to see a step-by-step tutorial on how to download Jupyter Notebook on Windows 11.
   <video width="590" height="390" controls>
   <source src="videoplayback.mp4" type="video/mp4">
@@ -40,7 +40,7 @@
 
 
 
-- ### How to install Jupyter Notebook on Linux
+- ## How to install Jupyter Notebook on Linux
    -Click on the video to see a step-by-step tutorial on how to download Jupyter Notebook on Linux-Ubuntu.
   <video width="590" height="390" controls>
   <source src="Installing Jupyter Notebook on Ubuntu! 720.mp4" type="video/mp4">
