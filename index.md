@@ -83,17 +83,7 @@
 </style>
 
 
-<div id="location"></div>
-<script>
-  fetch("https://ipapi.co/json/")
-    .then(response => response.json())
-    .then(data => {
-      document.getElementById("location").innerText =
-        `You are visiting from ${data.city}, ${data.country_name}`;
-    });
-</script>
 
-   
   
 
 
